@@ -2,21 +2,50 @@
     display: flex;
     flex-direction: column;
     max-width: var(--max-layout-width);
+    min-width: var(--min-layout-width);
+    min-height: 100vh;
     margin: 0 auto;
+    background-image: url('./img/rounds.png');
+    background-repeat: no-repeat;
 }
 
-.Layout_illustration_main {}
+.Layout_illustration_main {
+    background-size: var(--size-illustration-s);
+    background-position: center -60%;
+}
 
-.Layout_illustration_left-big {}
+.Layout_illustration_bottom {
+    background-size: var(--size-illustration-xs);
+    background-position: center 125%;
+}
+
+.Layout_illustration_left-big {
+    background-size: var(--size-illustration-s);
+    background-position: top 50% left -260px;
+}
+
+
+.Layout_illustration_right-big {
+    background-size: var(--size-illustration-s);
+    background-position: top 50% right -260px;
+}
 
 .Layout_illustration_left-small {}
-
-.Layout_illustration_right-big {}
-
 .Layout_illustration_right-small {}
 
-.Layout_illustration_bottom {}
 
 .Layout_illustration_top-left {}
 
 .Layout_illustration_top-right {}
+
+@media screen and (min-width: 425px) {
+    .Layout_illustration_main {
+        background-size: var(--size-illustration-m);
+        background-position: center -360%;
+    }
+
+    .Layout_illustration_bottom {
+        background-size: var(--size-illustration-s);
+        background-position: center 145%;
+    }
+}
