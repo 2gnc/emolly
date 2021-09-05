@@ -9,14 +9,14 @@
     background-repeat: no-repeat;
 }
 
-.Layout_illustration_main {
+.Layout_illustration_top {
     background-size: var(--size-illustration-s);
-    background-position: center -60%;
+    background-position: top -180px center;
 }
 
 .Layout_illustration_bottom {
     background-size: var(--size-illustration-xs);
-    background-position: center 125%;
+    background-position: bottom -100px center;
 }
 
 .Layout_illustration_left-big {
@@ -30,22 +30,57 @@
     background-position: top 50% right -260px;
 }
 
-.Layout_illustration_left-small {}
-.Layout_illustration_right-small {}
+.Layout_illustration_left-small {
+    background-size: var(--size-illustration-xxs);
+    background-position: bottom 0 left -110px;
+}
+
+.Layout_illustration_left-small-centred {
+    background-size: var(--size-illustration-xxs);
+    background-position: center left -150px;
+}
+
+.Layout_illustration_right-small {
+    background-size: var(--size-illustration-xxs);
+    background-position: top 0 right -110px;
+}
 
 
-.Layout_illustration_top-left {}
+.Layout_illustration_top-and-left {
+    background-image: url('./img/rounds.png'), url('./img/rounds.png');
+    background-size: var(--size-illustration-xs), var(--size-illustration-xs);
+    background-position: bottom 0 left -200px, top -260px center;
+}
 
-.Layout_illustration_top-right {}
+.Layout_illustration_top-and-right {
+    background-image: url('./img/rounds.png'), url('./img/rounds.png');
+    background-size: var(--size-illustration-s), var(--size-illustration-xs);
+    background-position: top 50% right -260px, top -270px center;
+}
 
 @media screen and (min-width: 425px) {
-    .Layout_illustration_main {
+    .Layout_illustration_top {
         background-size: var(--size-illustration-m);
-        background-position: center -360%;
+        background-position: top -180px center;
     }
 
     .Layout_illustration_bottom {
         background-size: var(--size-illustration-s);
-        background-position: center 145%;
+        background-position: bottom -130px center;
+    }
+
+    .Layout_illustration_left-small {
+        background-size: var(--size-illustration-xs);
+        background-position: bottom 0 left -145px;
+    }
+
+    .Layout_illustration_right-small {
+        background-size: var(--size-illustration-xs);
+        background-position: top 0 right -145px;
+    }
+
+    .Layout_illustration_left-small-centred {
+        background-size: var(--size-illustration-xs);
+        background-position: center left -200px;
     }
 }

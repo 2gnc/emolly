@@ -4,14 +4,15 @@ import { cn } from '@bem-react/classname';
 import './Layout.css';
 
 export enum LayoutIllustrationTypes {
-    MAIN = 'main',
+    TOP = 'top',
     LEFT_BIG = 'left-big',
     LEFT_SMALL = 'left-small',
+    LEFT_SMALL_CENTRED = 'left-small-centred',
     RIGHT_BIG = 'right-big',
     RIGHT_SMALL = 'right-small',
     BOTTOM = 'bottom',
-    TOP_LEFT = 'top-left',
-    TOP_RIGHT = 'top-right'
+    TOP_AND_LEFT = 'top-and-left',
+    TOP_AND_RIGHT = 'top-and-right'
 }
 
 interface Props {

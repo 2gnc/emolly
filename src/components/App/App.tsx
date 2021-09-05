@@ -9,7 +9,7 @@ const b = cn('App');
 export const App: React.FC = () => {
   return (
     <div className={b()}>
-      <Layout illustrationType={LayoutIllustrationTypes.LEFT_BIG}>
+      <Layout illustrationType={LayoutIllustrationTypes.TOP_AND_RIGHT}>
         HELLO
       </Layout>
     </div>
