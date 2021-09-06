@@ -1,10 +1,8 @@
 .Layout {
     display: flex;
+    height: 100%;
     box-sizing: border-box;
     flex-direction: column;
-    max-width: var(--max-layout-width);
-    min-width: var(--min-layout-width);
-    min-height: 100vh;
     margin: 0 auto;
     background-image: url('./img/rounds.png');
     background-repeat: no-repeat;
