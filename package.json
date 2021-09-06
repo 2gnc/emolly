@@ -2,7 +2,7 @@
   "name": "emolly",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://2gnc.github.io/emolly",
+  "homepage" : "http://2gnc.github.io/emolly",
   "dependencies": {
     "@bem-react/classname": "1.5.12",
     "@testing-library/jest-dom": "5.11.4",
