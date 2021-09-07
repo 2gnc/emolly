@@ -1,5 +1,6 @@
 import React from 'react';
 import { cn } from '@bem-react/classname';
+import { Link } from 'react-router-dom';
 import { InnerBox } from '../InnerBox/InnerBox';
 import { Logo } from '../Logo/Logo';
 import { Header } from '../Header/Header';
@@ -30,12 +31,12 @@ export const Main: React.FC<Props> = () => (
                     Но для начала давай познакомимся.
                 </p>
 
-                <Button
-                    text="Познакомиться"
-                    // onClick={() => console.log(123)}
-                    link="ya.ru"
-                    cls="customClass"
-                />
+                <Link to="/form-demo" className="Button_isLink">
+                    <Button
+                        text="Познакомиться"
+                        link="ya.ru"
+                    />
+                </Link>
             </div>
         </div>
     </InnerBox>
