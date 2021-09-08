@@ -1,8 +1,0 @@
-.InnerBox {
-    max-width: var(--max-layout-width);
-    min-width: var(--min-layout-width);
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-}
