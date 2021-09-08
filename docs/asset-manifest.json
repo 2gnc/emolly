@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e1919c6.chunk.css",
-    "main.js": "/static/js/main.3468ba31.chunk.js",
-    "main.js.map": "/static/js/main.3468ba31.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f764ded2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f764ded2.js.map",
-    "static/js/2.6aa2aff2.chunk.js": "/static/js/2.6aa2aff2.chunk.js",
-    "static/js/2.6aa2aff2.chunk.js.map": "/static/js/2.6aa2aff2.chunk.js.map",
-    "static/js/3.86dd98fb.chunk.js": "/static/js/3.86dd98fb.chunk.js",
-    "static/js/3.86dd98fb.chunk.js.map": "/static/js/3.86dd98fb.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.8e1919c6.chunk.css.map": "/static/css/main.8e1919c6.chunk.css.map",
-    "static/js/2.6aa2aff2.chunk.js.LICENSE.txt": "/static/js/2.6aa2aff2.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/RopaSansSCPro-Regular.ef89ed91.woff",
-    "static/media/Logo.css": "/static/media/logo_emolly.999d639c.png",
-    "static/media/Layout.css": "/static/media/rounds.e5ecca74.png"
+    "main.css": "/emolly/static/css/main.6a23e2de.chunk.css",
+    "main.js": "/emolly/static/js/main.3468ba31.chunk.js",
+    "main.js.map": "/emolly/static/js/main.3468ba31.chunk.js.map",
+    "runtime-main.js": "/emolly/static/js/runtime-main.bfcbc2d7.js",
+    "runtime-main.js.map": "/emolly/static/js/runtime-main.bfcbc2d7.js.map",
+    "static/js/2.6aa2aff2.chunk.js": "/emolly/static/js/2.6aa2aff2.chunk.js",
+    "static/js/2.6aa2aff2.chunk.js.map": "/emolly/static/js/2.6aa2aff2.chunk.js.map",
+    "static/js/3.86dd98fb.chunk.js": "/emolly/static/js/3.86dd98fb.chunk.js",
+    "static/js/3.86dd98fb.chunk.js.map": "/emolly/static/js/3.86dd98fb.chunk.js.map",
+    "index.html": "/emolly/index.html",
+    "static/css/main.6a23e2de.chunk.css.map": "/emolly/static/css/main.6a23e2de.chunk.css.map",
+    "static/js/2.6aa2aff2.chunk.js.LICENSE.txt": "/emolly/static/js/2.6aa2aff2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/emolly/static/media/RopaSansSCPro-Regular.ef89ed91.woff",
+    "static/media/Logo.css": "/emolly/static/media/logo_emolly.999d639c.png",
+    "static/media/Layout.css": "/emolly/static/media/rounds.e5ecca74.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f764ded2.js",
+    "static/js/runtime-main.bfcbc2d7.js",
     "static/js/2.6aa2aff2.chunk.js",
-    "static/css/main.8e1919c6.chunk.css",
+    "static/css/main.6a23e2de.chunk.css",
     "static/js/main.3468ba31.chunk.js"
   ]
 }
