@@ -21,14 +21,14 @@ export const App: React.FC = () => {
         <BrowserRouter>
             <div className={b()}>
                 <Switch>
-                    <Route path="/" exact>
-                        <Layout illustrationType={LayoutIllustrationTypes.TOP}>
-                            <Main />
-                        </Layout>
-                    </Route>
-                    <Route path="/form-demo">
+                    <Route path="/form-demo" exact>
                         <Layout illustrationType={LayoutIllustrationTypes.LEFT_BIG}>
                             <Questionnaire />
+                        </Layout>
+                    </Route>
+                    <Route path="*" >
+                        <Layout illustrationType={LayoutIllustrationTypes.TOP}>
+                            <Main />
                         </Layout>
                     </Route>
                 </Switch>
