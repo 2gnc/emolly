@@ -1,10 +1,10 @@
 import React from 'react';
 import { cn } from '@bem-react/classname';
 import { Link } from 'react-router-dom';
-import { InnerBox } from '../InnerBox/InnerBox';
-import { Logo } from '../Logo/Logo';
-import { Header } from '../Header/Header';
-import { Button } from '../Button/Button';
+import { InnerBox } from '../../InnerBox/InnerBox';
+import { Logo } from '../../Logo/Logo';
+import { Header } from '../../Header/Header';
+import { Button } from '../../Button/Button';
 
 import './Main.css';
 const b = cn('Main');

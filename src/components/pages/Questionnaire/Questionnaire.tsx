@@ -1,8 +1,9 @@
 import React, { useState, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import { cn } from '@bem-react/classname';
-import { Header } from '../Header/Header';
-import { ArrowButton } from '../ArrowButton/ArrowButton';
-import { StepQuestions } from '../StepQuestions/StepQuestions';
+import { Header } from '../../Header/Header';
+import { ArrowButton } from '../../ArrowButton/ArrowButton';
+import { StepQuestions } from '../../StepQuestions/StepQuestions';
 
 import './Questionnaire.css';
 
@@ -13,7 +14,7 @@ export interface IQuestion {
 };
 
 const b = cn('Questionnaire');
-const HEADER = 'Расскажи мне о своем лице';
+const HEADER = 'Есть ли у тебя на лице постоянные покраснения, сосудистая сетка, высыпания?';
 const QUESTIONS: IQuestion[] = [
     {
         text: `У меня матовая кожа (мало кожного сала)`,
@@ -53,7 +54,9 @@ export const Questionnaire: React.FC<Props> = () => {
                 />
                 <div className={b('Buttons')}>
                     <ArrowButton direction="left" onClick={handleLeftArrowClick} />
-                    <ArrowButton direction="right" onClick={handleRightArrowClick} />
+                    <Link to="/upload-demo">
+                        <ArrowButton direction="right" onClick={handleRightArrowClick} />
+                    </Link>
                 </div>
             </div>
         </div>

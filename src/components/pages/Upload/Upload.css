@@ -1,0 +1,17 @@
+.Upload {
+
+}
+
+.Upload-Text {
+    font-family: 'Ropa Sans Pro';
+    font-size: var(--size-main-text);
+    margin-bottom: 0;
+    color: var(--color-main);
+}
+
+@media screen and (min-height: 600px) {
+    .Upload {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+}

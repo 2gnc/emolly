@@ -3,8 +3,9 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { cn } from '@bem-react/classname';
 import { Layout, LayoutIllustrationTypes } from '../Layout/Layout';
-import { Main } from '../Main/Main';
-import { Questionnaire } from '../Questionnaire/Questionnaire';
+import { Main } from '../pages/Main/Main';
+import { Questionnaire } from '../pages/Questionnaire/Questionnaire';
+import { Upload } from '../pages/Upload/Upload';
 
 import './App.css';
 
@@ -24,6 +25,11 @@ export const App: React.FC = () => {
                     <Route path="/form-demo" exact>
                         <Layout illustrationType={LayoutIllustrationTypes.LEFT_BIG}>
                             <Questionnaire />
+                        </Layout>
+                    </Route>
+                    <Route path="/upload-demo" exact>
+                        <Layout illustrationType={LayoutIllustrationTypes.BOTTOM}>
+                            <Upload />
                         </Layout>
                     </Route>
                     <Route path="*" >

@@ -1,7 +1,7 @@
 import React from 'react';
 import { cn } from '@bem-react/classname';
 import { QuestionItem } from '../QuestionItem/QuestionItem';
-import { IQuestion } from '../Questionnaire/Questionnaire';
+import { IQuestion } from '../pages/Questionnaire/Questionnaire';
 
 import './StepQuestions.css';
 
