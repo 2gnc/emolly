@@ -6,7 +6,7 @@
     margin: 0 auto;
     background-image: url('./img/rounds.png');
     background-repeat: no-repeat;
-    padding: 40px 20px 20px;
+    padding: 40px 25px 20px;
 }
 
 .Layout_illustration_top {
@@ -21,7 +21,7 @@
 
 .Layout_illustration_left-big {
     background-size: var(--size-illustration-s);
-    background-position: top 50% left -260px;
+    background-position: top 50% left -280px;
 }
 
 

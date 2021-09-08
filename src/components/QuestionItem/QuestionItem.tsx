@@ -17,12 +17,11 @@ export const QuestionItem: React.FC<Props> = ({ text, id, isChecked, onAnswerSet
         e.stopPropagation();
         onAnswerSet(id);
     };
-    console.log('ITEM', id, isChecked)
+
     return (
         <div className={b()} onClick={handleClick}>
             <div className={b('Radio', {checked: isChecked})} />
             <div className={b('Text')}>
-                {isChecked}
                 {text}
             </div>
         </div>

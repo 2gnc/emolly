@@ -1,0 +1,14 @@
+.ArrowButton {
+    width: 40px;
+    max-width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./img/arrow.png');
+}
+
+.ArrowButton_direction_left {}
+
+.ArrowButton_direction_right {
+    transform: rotateY(180deg);
+}

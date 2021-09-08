@@ -1,5 +1,23 @@
-.Questionnaire {}
+.Questionnaire {
+    height: 100%;
+    padding-top: 10px;
+}
 
-.Questionnaire-Quiz {}
+.Questionnaire-Quiz {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
-.Questionnaire-Buttons {}
+.Questionnaire-Buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+@media screen and (min-height: 600px) {
+    .Questionnaire {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+}

@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { cn } from '@bem-react/classname';
 import { Header } from '../Header/Header';
+import { ArrowButton } from '../ArrowButton/ArrowButton';
 import { StepQuestions } from '../StepQuestions/StepQuestions';
 
 import './Questionnaire.css';
@@ -15,7 +16,7 @@ const b = cn('Questionnaire');
 const HEADER = 'Расскажи мне о своем лице';
 const QUESTIONS: IQuestion[] = [
     {
-        text: 'У меня матовая кожа (мало кожного сала)',
+        text: `У меня матовая кожа (мало кожного сала)`,
         id: '01'
     },
     {
@@ -37,18 +38,23 @@ export const Questionnaire: React.FC<Props> = () => {
     const handleAnswerSet = useCallback((answer: string) => {
         setAnswer(answer);
     }, []);
-    console.log({answer});
+
+    const handleLeftArrowClick = useCallback(() => {}, []);
+    const handleRightArrowClick = useCallback(() => {}, []);
+
     return (
         <div className={b()}>
             <div className={b('Quiz')}>
                 <Header text={HEADER} />
-            </div>
-            <div className={b('Buttons')}>
                 <StepQuestions
                     questions={QUESTIONS}
                     onAnswerSet={handleAnswerSet}
                     answer={answer}
                 />
+                <div className={b('Buttons')}>
+                    <ArrowButton direction="left" onClick={handleLeftArrowClick} />
+                    <ArrowButton direction="right" onClick={handleRightArrowClick} />
+                </div>
             </div>
         </div>
     )
