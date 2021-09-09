@@ -1,9 +1,27 @@
+.Result-Logo {
+    display: none;
+}
+
 .Result-Skin {
     text-transform: uppercase;
     font-size: var(--size-bigger-text);
     margin: 25px 0;
 }
 
-.Result .Text:nth-child(4) {
+.Result-Extender {
     flex: 1;
+}
+
+@media screen and (min-height: 600px) {
+    .Result-Logo {
+        display: block;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-height: 700px) {
+    .Result-Logo {
+        margin-bottom: 40px;
+    }
 }

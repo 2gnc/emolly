@@ -3,6 +3,7 @@ import { cn } from '@bem-react/classname';
 import { InnerBox } from '../../InnerBox/InnerBox';
 import { Text } from '../../Text/Text';
 import { Button } from '../../Button/Button';
+import { Logo } from '../../Logo/Logo';
 
 import './Result.css';
 
@@ -17,6 +18,7 @@ const b = cn('Result');
 
 export const Result: React.FC<Props> = ({ skinType = SkinTypes.NORMAL }) => (
     <InnerBox cls={b()}>
+        <Logo cls={b('Logo')} />
         <Text>
             Прости! Не хотела разочаровывать
             тебя, но я только учусь магии
@@ -32,7 +34,7 @@ export const Result: React.FC<Props> = ({ skinType = SkinTypes.NORMAL }) => (
         <div className={b('Skin')}>
             {skinType}
         </div>
-        <Text>
+        <Text cls={b('Extender')}>
             А во-вторых, как только я буду готова,
             я подарю тебе бесплатную подписку
             на мой премиум-аккаунт – там
