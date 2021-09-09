@@ -89,3 +89,9 @@
         background-position: center left -200px;
     }
 }
+
+@media screen and (orientation: landscape) {
+    .Layout {
+        padding: 10px 25px;
+    }
+}

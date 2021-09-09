@@ -13,31 +13,31 @@ const b = cn('Main');
 interface Props {};
 
 export const Main: React.FC<Props> = () => (
-    <InnerBox>
-        <div className={b()}>
-            <Logo />
+    <InnerBox cls={b()}>
+        <header className={b('Header')}>
+            <Logo cls={b('Logo')} />
             <Header
                 text="сканер для подбора косметики"
                 isMain
             />
-            <div className={b('Content')}>
-                <h3 className={b('Hello')}>Привет!</h3>
-                <Text>
-                    Я Emolly, твой личный косметолог, и я помогу тебе подобрать косметику для ухода за лицом.
-                    Просто сфотографируй средство, которое собираешься купить, и пришли фото мне.
-                    Я проанализирую его состав и скажу, насколько оно тебе подходит. 
-                    А еще я расскажу, на что тебе обращать внимание при выборе косметики.
-                </Text>
-                <Text>
-                    Но для начала давай познакомимся.
-                </Text>
-                <Link to="/form-demo" className="Button_isLink">
-                    <Button
-                        text="Познакомиться"
-                        link="ya.ru"
-                    />
-                </Link>
-            </div>
+        </header>
+        <div className={b('Content')}>
+            <h3 className={b('Hello')}>Привет!</h3>
+            <Text cls={b('Text')}>
+                Я Emolly, твой личный косметолог, и я помогу тебе подобрать косметику для ухода за лицом.
+                Просто сфотографируй средство, которое собираешься купить, и пришли фото мне.
+                Я проанализирую его состав и скажу, насколько оно тебе подходит. 
+                А еще я расскажу, на что тебе обращать внимание при выборе косметики.
+            </Text>
+            <Text cls={b('Text')}>
+                Но для начала давай познакомимся.
+            </Text>
+            <Link to="/form-demo" className="Button_isLink">
+                <Button
+                    text="Познакомиться"
+                    link="ya.ru"
+                />
+            </Link>
         </div>
     </InnerBox>
 );

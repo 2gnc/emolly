@@ -6,6 +6,13 @@
     padding-top: 30px;
 }
 
+.Main-Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .Main-Content {
     display: flex;
     height: 100%;
@@ -21,8 +28,41 @@
     flex: 1;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 425px) and (orientation: portrait) {
     .Main {
         padding-top: 45px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .Main {
+        padding-top: 0;
+    }
+
+    .Main-Hello {
+        margin: 0;
+    }
+
+    .Main-Text {
+        margin-top: 5px;
+    }
+
+    .Main-Header {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-self: flex-start;
+        margin: 0;
+    }
+
+    .Main-Logo {
+        height: 50px;
+        width: 135px;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-height: 400px) {
+    .Main-Header {
+        margin-bottom: 0;
+        margin-bottom: 20px;
     }
 }

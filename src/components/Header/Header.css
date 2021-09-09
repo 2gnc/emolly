@@ -20,3 +20,9 @@
 .Header_main .Header-Wave {
     margin-top: 10px;
 }
+
+@media screen and (orientation: landscape) {
+    .Header-Wave {
+        display: none;
+    }
+}
