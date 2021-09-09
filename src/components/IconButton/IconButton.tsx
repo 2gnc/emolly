@@ -1,5 +1,6 @@
 import React from 'react';
 import { cn } from '@bem-react/classname';
+import { Link } from 'react-router-dom';
 
 import './IconButton.css';
 
@@ -20,7 +21,9 @@ export const IconButton: React.FC<Props> = ({ type, onClick }) => {
             <p className={b('Text')}>
                 {text}
             </p>
-            <div className={b('Icon', { type })} />
+            <Link to="/result-demo">
+                <div className={b('Icon', { type })} />
+            </Link>
         </div>
     )
 }

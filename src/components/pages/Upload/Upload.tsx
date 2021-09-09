@@ -4,6 +4,7 @@ import { InnerBox } from '../../InnerBox/InnerBox';
 import { Wave } from '../../Wave/Wave';
 import { IconButton } from '../../IconButton/IconButton';
 import { Logo } from '../../Logo/Logo';
+import { Text } from '../../Text/Text';
 
 import './Upload.css';
 
@@ -18,15 +19,15 @@ export const Upload: React.FC<Props> = () => {
     return (
         <InnerBox cls={b('Box')}>
             <Logo cls={b('Logo')} />
-            <p className={b('Text')}>
+            <Text>
                 Отлично! Теперь можем выбрать тебе косметику.
-            </p>
-            <p className={b('Text')}>
+            </Text>
+            <Text>
                 Возьми любое средство для ухода за лицом, сфотографируй список ингредиентов на упаковке, отправь мне и – вуаля! Я скажу, что тебе от этой косметики ждать. 
-            </p>
-            <p className={b('Text')}>
+            </Text>
+            <Text>
                 Попробуем?
-            </p>
+            </Text>
             <Wave cls={b('Wave')} />
             <div className={b('Icons')}>
                 <IconButton type="photo" onClick={handlePhotoClick} />

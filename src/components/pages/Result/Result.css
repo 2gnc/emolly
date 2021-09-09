@@ -1,0 +1,9 @@
+.Result-Skin {
+    text-transform: uppercase;
+    font-size: var(--size-bigger-text);
+    margin: 25px 0;
+}
+
+.Result .Text:nth-child(4) {
+    flex: 1;
+}

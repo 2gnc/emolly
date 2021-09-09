@@ -1,11 +1,11 @@
 import React from 'react';
 import { cn } from '@bem-react/classname';
+import { IWithCls } from '../../typings';
 
 import './Button.css';
 
-interface Props {
+interface Props extends IWithCls {
     text: string; // контент кнопки
-    cls?: string; // кастомный css класс
     onClick?: (e: React.MouseEvent) => void; // обработчик клика если компонент используется как кнопка
     link?: string; // урл если компонент должен являться ссылкой
 }

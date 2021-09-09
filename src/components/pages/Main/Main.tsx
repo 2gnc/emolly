@@ -5,6 +5,7 @@ import { InnerBox } from '../../InnerBox/InnerBox';
 import { Logo } from '../../Logo/Logo';
 import { Header } from '../../Header/Header';
 import { Button } from '../../Button/Button';
+import { Text } from '../../Text/Text';
 
 import './Main.css';
 const b = cn('Main');
@@ -21,16 +22,15 @@ export const Main: React.FC<Props> = () => (
             />
             <div className={b('Content')}>
                 <h3 className={b('Hello')}>Привет!</h3>
-                <p className={b('Text')}>
+                <Text>
                     Я Emolly, твой личный косметолог, и я помогу тебе подобрать косметику для ухода за лицом.
                     Просто сфотографируй средство, которое собираешься купить, и пришли фото мне.
                     Я проанализирую его состав и скажу, насколько оно тебе подходит. 
                     А еще я расскажу, на что тебе обращать внимание при выборе косметики.
-                </p>
-                <p className={b('Text')}>
+                </Text>
+                <Text>
                     Но для начала давай познакомимся.
-                </p>
-
+                </Text>
                 <Link to="/form-demo" className="Button_isLink">
                     <Button
                         text="Познакомиться"

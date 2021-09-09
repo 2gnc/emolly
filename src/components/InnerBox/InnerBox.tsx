@@ -1,11 +1,10 @@
 import React from 'react';
 import { cn } from '@bem-react/classname';
+import { IWithCls } from '../../typings';
 
 import './InnerBox.css';
 
-interface Props {
-    cls?: string;
-}
+interface Props extends IWithCls {}
 
 const b = cn('InnerBox');
 

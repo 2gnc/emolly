@@ -17,14 +17,7 @@
     margin-bottom: 0;
 }
 
-.Main-Text {
-    font-family: 'Ropa Sans Pro';
-    font-size: var(--size-main-text);
-    margin-bottom: 0;
-    color: var(--color-main);
-}
-
-.Main-Text:nth-child(3) {
+.Main .Text:nth-child(3) {
     flex: 1;
 }
 

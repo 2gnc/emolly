@@ -9,7 +9,6 @@
     font-weight: bold;
     font-family: "Ropa Sans SC Pro";
     font-size: var(--size-main-text);
-    text-transform: capitalize;
 }
 
 .Button_isLink {

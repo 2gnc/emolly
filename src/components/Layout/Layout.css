@@ -14,12 +14,17 @@
     background-position: top -265px center;
 }
 
+.Layout_illustration_top-half {
+    background-size: var(--size-illustration-xs);
+    background-position: top -210px center;
+}
+
 .Layout_illustration_bottom {
     background-size: var(--size-illustration-xs);
     background-position: bottom -100px center;
 }
 
-.Layout_illustration_left-big {
+.Layout_illustration_left-bi    g {
     background-size: var(--size-illustration-s);
     background-position: top 50% left -280px;
 }
