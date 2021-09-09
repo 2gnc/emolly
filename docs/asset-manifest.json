@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.8f429b9c.chunk.css",
-    "main.js": "./static/js/main.19020986.chunk.js",
-    "main.js.map": "./static/js/main.19020986.chunk.js.map",
+    "main.css": "./static/css/main.57020409.chunk.css",
+    "main.js": "./static/js/main.f7cbfba5.chunk.js",
+    "main.js.map": "./static/js/main.f7cbfba5.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.220046ae.js",
     "runtime-main.js.map": "./static/js/runtime-main.220046ae.js.map",
     "static/js/2.95c1bee8.chunk.js": "./static/js/2.95c1bee8.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.e710017d.chunk.js": "./static/js/3.e710017d.chunk.js",
     "static/js/3.e710017d.chunk.js.map": "./static/js/3.e710017d.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.8f429b9c.chunk.css.map": "./static/css/main.8f429b9c.chunk.css.map",
+    "static/css/main.57020409.chunk.css.map": "./static/css/main.57020409.chunk.css.map",
     "static/js/2.95c1bee8.chunk.js.LICENSE.txt": "./static/js/2.95c1bee8.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/RopaSansSCPro-Regular.ef89ed91.woff",
     "static/media/Logo.css": "./static/media/logo_emolly.999d639c.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.220046ae.js",
     "static/js/2.95c1bee8.chunk.js",
-    "static/css/main.8f429b9c.chunk.css",
-    "static/js/main.19020986.chunk.js"
+    "static/css/main.57020409.chunk.css",
+    "static/js/main.f7cbfba5.chunk.js"
   ]
 }
