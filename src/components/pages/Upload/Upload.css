@@ -1,5 +1,5 @@
-.Upload {
-    
+.Upload-Logo {
+    display: none;
 }
 
 .Upload-Wave {
@@ -23,7 +23,18 @@
 
 @media screen and (min-height: 600px) {
     .Upload-Box {
-        padding-top: 40px;
         padding-bottom: 20px;
+    }
+
+    .Upload-Logo {
+        display: block;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-height: 700px) {
+    .Upload-Logo {
+        margin-bottom: 40px;
     }
 }

@@ -3,8 +3,10 @@ import { cn } from '@bem-react/classname';
 
 import './Logo.css';
 
-interface Props {}
+interface Props {
+    cls?: string;
+}
 
 const b = cn('Logo');
 
-export const Logo: React.FC<Props> = () => <div className={b()} />;
+export const Logo: React.FC<Props> = ({ cls }) => <div className={b(null, [cls])} />;

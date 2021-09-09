@@ -3,6 +3,7 @@ import { cn } from '@bem-react/classname';
 import { InnerBox } from '../../InnerBox/InnerBox';
 import { Wave } from '../../Wave/Wave';
 import { IconButton } from '../../IconButton/IconButton';
+import { Logo } from '../../Logo/Logo';
 
 import './Upload.css';
 
@@ -16,6 +17,7 @@ export const Upload: React.FC<Props> = () => {
 
     return (
         <InnerBox cls={b('Box')}>
+            <Logo cls={b('Logo')} />
             <p className={b('Text')}>
                 Отлично! Теперь можем выбрать тебе косметику.
             </p>
