@@ -45,7 +45,7 @@ export const Questionnaire: React.FC<Props> = () => {
     const handleRightArrowClick = useCallback(() => {}, []);
 
     return (
-        <InnerBox>
+        <InnerBox cls={b('Box')}>
             <div className={b('Quiz')}>
                 <Header text={HEADER} />
                 <StepQuestions

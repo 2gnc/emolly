@@ -1,0 +1,35 @@
+.IconButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ropa Sans Pro';
+    color: var(--color-main);
+}
+
+.IconButton-Text {
+    text-align: center;
+    margin-bottom: 35px;
+    max-width: 140px;
+}
+
+.IconButton-Icon {
+    width: 120px;
+    min-width: 120px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid var(--color-blue);
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.IconButton-Icon_type_photo {
+    background-image: url('./img/photo-icon.png');
+    background-size: 30%;
+}
+
+.IconButton-Icon_type_upload {
+    background-image: url('./img/laptop-icon.png');
+    background-size: 65%;
+}

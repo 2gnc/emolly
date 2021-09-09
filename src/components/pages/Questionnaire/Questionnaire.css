@@ -15,7 +15,7 @@
 }
 
 @media screen and (min-height: 600px) {
-    .Questionnaire {
+    .Questionnaire-Box {
         padding-top: 40px;
         padding-bottom: 20px;
     }

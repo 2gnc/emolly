@@ -1,5 +1,9 @@
 .Upload {
+    
+}
 
+.Upload-Wave {
+    margin-top: 45px;
 }
 
 .Upload-Text {
@@ -7,10 +11,18 @@
     font-size: var(--size-main-text);
     margin-bottom: 0;
     color: var(--color-main);
+    
+}
+
+.Upload-Icons {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 @media screen and (min-height: 600px) {
-    .Upload {
+    .Upload-Box {
         padding-top: 40px;
         padding-bottom: 20px;
     }
