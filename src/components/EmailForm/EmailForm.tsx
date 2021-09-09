@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { cn } from '@bem-react/classname';
 import { Button } from '../Button/Button';
 
@@ -19,6 +19,18 @@ export const EmailForm: React.FC<Props> = () => {
     const [emailInputContent, setEmailInputContent] = useState('');
     const [isAgreementChecked, setAgreementChecked] = useState(false);
 
+    const handeleUsernameChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+        setUsernameInputContent(e.target.value);
+    }, []);
+
+    const handeleEmailChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+        setEmailInputContent(e.target.value);
+    }, []);
+
+    const handeleAgreementChange = useCallback((e) => {
+        setAgreementChecked(!isAgreementChecked);
+    }, [isAgreementChecked]);
+
     const isButtonEnabled = Boolean(isUsernameInputValid !== false &&
         isEmailInputValid !== false &&
         usernameInputContent.length &&
@@ -34,7 +46,7 @@ export const EmailForm: React.FC<Props> = () => {
                     name="username"
                     id="username"
                     value={usernameInputContent}
-                    onChange={(e) => setUsernameInputContent(e.target.value)}
+                    onChange={handeleUsernameChange}
                 />
             </label>
             <label htmlFor="email">
@@ -44,7 +56,7 @@ export const EmailForm: React.FC<Props> = () => {
                     name="email"
                     id="email"
                     value={emailInputContent}
-                    onChange={(e) => setEmailInputContent(e.target.value)}
+                    onChange={handeleEmailChange}
                 />
             </label>
             <label htmlFor="confirm">
@@ -53,7 +65,7 @@ export const EmailForm: React.FC<Props> = () => {
                     name="confirm"
                     id="confirm"
                     checked={isAgreementChecked}
-                    onChange={() => setAgreementChecked(!isAgreementChecked)}
+                    onChange={handeleAgreementChange}
                     className={b('CheckboxInput')}
                 />
                 <div className={b('Checkbox')} />
