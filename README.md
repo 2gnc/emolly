@@ -1,3 +1,6 @@
+# Visual components for Emolly 
+
+Demo on github pages: https://2gnc.github.io/emolly/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
