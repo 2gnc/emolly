@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { cn } from '@bem-react/classname';
+import { InnerBox } from '../../InnerBox/InnerBox';
 import { Header } from '../../Header/Header';
 import { ArrowButton } from '../../ArrowButton/ArrowButton';
 import { StepQuestions } from '../../StepQuestions/StepQuestions';
@@ -44,7 +45,7 @@ export const Questionnaire: React.FC<Props> = () => {
     const handleRightArrowClick = useCallback(() => {}, []);
 
     return (
-        <div className={b()}>
+        <InnerBox>
             <div className={b('Quiz')}>
                 <Header text={HEADER} />
                 <StepQuestions
@@ -59,6 +60,6 @@ export const Questionnaire: React.FC<Props> = () => {
                     </Link>
                 </div>
             </div>
-        </div>
+        </InnerBox>
     )
 };

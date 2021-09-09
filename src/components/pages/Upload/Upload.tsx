@@ -1,5 +1,6 @@
 import React from 'react';
 import { cn } from '@bem-react/classname';
+import { InnerBox } from '../../InnerBox/InnerBox';
 import { Wave } from '../../Wave/Wave';
 
 import './Upload.css';
@@ -9,7 +10,7 @@ interface Props {}
 const b = cn('Upload');
 
 export const Upload: React.FC<Props> = () => (
-    <div className={b()}>
+    <InnerBox>
         <p className={b('Text')}>
             Отлично! Теперь можем выбрать тебе косметику.
         </p>
@@ -20,5 +21,5 @@ export const Upload: React.FC<Props> = () => (
             Попробуем?
         </p>
         <Wave />
-    </div>
+    </InnerBox>
 );
