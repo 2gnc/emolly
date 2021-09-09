@@ -11,6 +11,11 @@
     font-size: var(--size-main-text);
 }
 
+.Button:disabled {
+    opacity: 0.6;
+    font-weight: normal;
+}
+
 .Button_isLink {
     text-decoration: none;
     display: flex;

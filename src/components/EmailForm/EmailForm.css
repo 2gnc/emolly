@@ -1,1 +1,44 @@
-.EmailForm {}
+.EmailForm {
+    color: var(--color-main);
+}
+
+.EmailForm label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.EmailForm label:nth-child(3) {
+    flex-direction: row;
+    font-size: 13px;
+}
+
+.EmailForm-CheckboxInput {
+    display: none;
+}
+
+.EmailForm input {
+    padding: 4px;
+    line-height: 2;
+    border: 1px solid var(--color-pink);
+    color: var(--color-main);
+}
+
+.EmailForm-Checkbox {
+    margin-right: 10px;
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    border: 1px solid var(--color-pink);
+    transition: background-color 0.2s linear;
+}
+
+.EmailForm-CheckboxInput:checked + .EmailForm-Checkbox {
+    background: var(--color-pink);
+}
+
+.EmailForm-Button {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+}
