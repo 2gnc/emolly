@@ -8,6 +8,7 @@ import { Main } from '../pages/Main/Main';
 import { Questionnaire } from '../pages/Questionnaire/Questionnaire';
 import { Upload } from '../pages/Upload/Upload';
 import { Result } from '../pages/Result/Result';
+import { Thanks } from '../pages/Thanks/Thanks';
 
 import './App.css';
 
@@ -37,6 +38,11 @@ export const App: React.FC = () => {
                     <Route path="/result-demo" exact>
                         <Layout illustrationType={LayoutIllustrationTypes.TOP_HALF}>
                             <Result />
+                        </Layout>
+                    </Route>
+                    <Route path="/thanks-demo" exact>
+                        <Layout illustrationType={LayoutIllustrationTypes.BOTTOM}>
+                            <Thanks />
                         </Layout>
                     </Route>
                     <Route path="*" >

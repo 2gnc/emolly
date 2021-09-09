@@ -8,6 +8,11 @@
     margin: 25px 0;
 }
 
+.Result-DELETE_THIS {
+    text-decoration: none;
+    color: var(--color-main);
+}
+
 .Result-Extender {
     flex: 1;
 }

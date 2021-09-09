@@ -1,0 +1,38 @@
+.Thanks {
+    color: var(--color-main);
+}
+
+.Thanks-Header {
+    max-width: 240px;
+    margin-bottom: 20px;
+}
+
+.Thanks-Text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Thanks-Logo {
+    align-self: center;
+}
+
+.Thanks-About {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Thanks-About a,
+.Thanks-Text a {
+    text-decoration: none;
+    color: var(--color-main);
+}
+
+@media screen and (min-width: 425px) {
+    .Thanks-About {
+        margin-bottom: 100px;
+    }
+}
