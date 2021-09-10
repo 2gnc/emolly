@@ -42,7 +42,7 @@
     transform: rotate(45deg);
 }
 
-@media screen and (orientation: landscape) and (max-height: 900px) {
+@media screen and (orientation: landscape) and (min-height: 900px) {
     .Modal {
         max-width: var(--max-layout-width);
         left: calc(50vw - 215px);
@@ -51,5 +51,11 @@
     .Modal_position_bottom {
         justify-content: center;
         padding-top: 100px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-height: 400px) {
+    .Modal_position_bottom {
+        padding-top: 0;
     }
 }

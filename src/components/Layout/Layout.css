@@ -90,9 +90,15 @@
     }
 }
 
-@media screen and (orientation: landscape) and (min-height: 800px) {
+@media screen and (orientation: landscape) and (max-height: 400px) {
     .Layout {
         padding: 10px 25px;
+    }
+}
+
+
+@media screen and (orientation: landscape) and (min-height: 800px) {
+    .Layout {
         max-height: 600px;
     }
 }
