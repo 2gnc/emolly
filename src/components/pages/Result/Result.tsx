@@ -40,14 +40,16 @@ export const Result: React.FC<Props> = ({ skinType = SkinTypes.NORMAL }) => {
                 Но у меня есть для тебя и хорошие
                 новости.
             </Text>
-            <Text>
-                Во-первых, твой тип кожи: 
-            </Text>
-            <Link to="/thanks-demo" className={b('DELETE_THIS')}>
-            <div className={b('Skin')}>
-                {skinType}
+            <div className={b('SkinType')}>
+                <Text>
+                    Во-первых, твой тип кожи: 
+                </Text>
+                <Link to="/thanks-demo" className={b('DELETE_THIS')}>
+                <div className={b('Skin')}>
+                    {skinType}
+                </div>
+                </Link>
             </div>
-            </Link>
             <Text cls={b('Extender')}>
                 А во-вторых, как только я буду готова,
                 я подарю тебе бесплатную подписку

@@ -30,3 +30,23 @@
         margin-bottom: 40px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 600px) {
+    .Upload-Wave {
+        display: none;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-height: 400px) {
+    .Upload-Box .IconButton-Text {
+        margin: 10px 0;
+    }
+
+    .Upload-Box .IconButton {
+        width: 180px;
+    }
+
+    .Upload-Box .IconButton-Text {
+        max-width: 180px;
+    }
+}

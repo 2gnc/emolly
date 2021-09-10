@@ -30,3 +30,18 @@
         margin-bottom: 40px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 400px) {
+    .Result-SkinType {
+        display: flex;
+        align-items: center;
+    }
+    .Result-SkinType .Text {
+        margin-top: 0;
+        margin-right: 10px;
+    }
+
+    .Result-Skin {
+        margin: 10px 0;
+    }
+}

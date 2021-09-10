@@ -3,3 +3,9 @@
     padding: 30px 20px 20px;
     flex: 1;
 }
+
+@media screen and (orientation: landscape) and (max-height: 400px) {
+    .StepQuestions {
+        padding: 0 20px;
+    }
+}

@@ -1,6 +1,7 @@
 .App {
   background-color: var(--color-main-bg);
   height: 100%;
+  min-height: 320px;
 }
 
 @media screen and (orientation: landscape) {

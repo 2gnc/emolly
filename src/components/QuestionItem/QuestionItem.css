@@ -17,3 +17,15 @@
 .QuestionItem-Radio_checked {
     background-color: var(--color-light-pink);
 }
+
+@media screen and (orientation: landscape) and (max-height: 320px) {
+    .QuestionItem {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-height: 370px) {
+    .QuestionItem {
+        margin-bottom: 15px;
+    }
+}
