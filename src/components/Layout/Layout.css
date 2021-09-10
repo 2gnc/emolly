@@ -24,7 +24,7 @@
     background-position: bottom -155px center;
 }
 
-.Layout_illustration_left-bi    g {
+.Layout_illustration_left-big {
     background-size: var(--size-illustration-s);
     background-position: top 50% left -280px;
 }
@@ -93,5 +93,6 @@
 @media screen and (orientation: landscape) and (max-height: 900px) {
     .Layout {
         padding: 10px 25px;
+        max-height: 600px;
     }
 }
