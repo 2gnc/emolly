@@ -46,7 +46,7 @@
     }
 }
 
-@media screen and (orientation: landscape) and (max-height: 900px) {
+@media screen and (orientation: landscape) and (max-height: 650px) {
     .Modal .Button {
         min-height: 60px;
     }

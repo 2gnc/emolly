@@ -34,7 +34,7 @@
     }
 }
 
-@media screen and (orientation: landscape) and (max-height: 800px) {
+@media screen and (orientation: landscape) and (max-height: 650px) {
     .Main {
         padding-top: 0;
     }

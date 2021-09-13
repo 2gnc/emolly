@@ -63,6 +63,19 @@
     background-position: top 50% right -260px, top -270px center;
 }
 
+@media screen and (orientation: landscape) and (max-height: 400px) {
+    .Layout {
+        padding: 10px 25px;
+    }
+}
+
+
+@media screen and (orientation: landscape) and (min-height: 650px) {
+    .Layout {
+        max-height: 600px;
+    }
+}
+
 @media screen and (min-width: 425px) {
     .Layout_illustration_top {
         background-size: var(--size-illustration-l);
@@ -87,18 +100,5 @@
     .Layout_illustration_left-small-centred {
         background-size: var(--size-illustration-xs);
         background-position: center left -200px;
-    }
-}
-
-@media screen and (orientation: landscape) and (max-height: 400px) {
-    .Layout {
-        padding: 10px 25px;
-    }
-}
-
-
-@media screen and (orientation: landscape) and (min-height: 800px) {
-    .Layout {
-        max-height: 600px;
     }
 }
