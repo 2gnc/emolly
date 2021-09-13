@@ -42,7 +42,7 @@
     transform: rotate(45deg);
 }
 
-@media screen and (orientation: landscape) and (min-height: 900px) {
+@media screen and (orientation: landscape) and (min-height: 650px) {
     .Modal {
         max-width: var(--max-layout-width);
         left: calc(50vw - 215px);
