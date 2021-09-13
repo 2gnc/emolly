@@ -11,8 +11,8 @@
     }
 }
 
-@media only screen and (orientation: landscape) {
+@media screen and (orientation: landscape) {
   .App {
-    background: red;
+    background: lime;
   }
 }
